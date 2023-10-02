@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap");
+
+:root {
+  --emphasis: #7367f0;
+  --primary: #7D45DC;
+  --sky:  #43CBFF;
+  --secondary: #5e5873;
+  --gray: #b9b9c3;
+  --sweet-gray: #D8D6DE;
+  --green-tea: #e9ecef;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#app {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+label {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+
+
+input,
+select {
+  height: 38px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--sweet-gray);
+}
+
+select{
+  appearance: none;
+  background-image: url('./dropdown.svg') ;
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+
+  /* 
+  background-position: right 0.7rem top 50%;
+  background-size: 0.65rem auto;  */
+}
+
+/* select{
+  background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 100% 50%;
+ -moz-appearance: none;
+ -webkit-appearance: none;
+ appearance: none;
+} */
+
+/* @import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
